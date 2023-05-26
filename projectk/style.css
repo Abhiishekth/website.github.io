@@ -1,0 +1,64 @@
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header element */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style for the form element */
+  form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the label element */
+  label {
+    margin-right: 10px;
+  }
+  
+  /* Style for the input element */
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for the input[type="submit"] element */
+  input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4da4eb;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the table element */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style for the th and td elements */
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for the th elements */
+  th {
+    background-color: #4da4eb;
+    color: #000000;
+  }
+  
+  /* Style for the tr:nth-child(even) selector */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

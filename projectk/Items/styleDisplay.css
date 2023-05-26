@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.container img {
+  width: 50%;
+  height: auto;
+  object-fit: fill;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.container-details {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-details h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.container-details label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-details input {
+  margin-right: 10px;
+}
+
+.container-details button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.container-details button:hover {
+  background-color: #444;
+}
+
+
+/* Form container */
+form {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+/* Label styles */
+label {
+font-weight: bold;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="file"] {
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 16px;
+}
+
+/* input[type="submit"],
+button {
+padding: 5px 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+font-size: 16px;
+flex-direction: row;
+} */
+
+
+
